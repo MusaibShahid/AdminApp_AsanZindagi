@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".tutor_appointment"
+    android:orientation="vertical"
+    android:background="#fff">
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animation"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:lottie_autoPlay="true"
+        app:lottie_fileName="anim2.json"
+        app:lottie_loop="true" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:background="#f6941e">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your Student Want To Conatct You"
+            android:textColor="#fff"
+            android:fontFamily="@font/lobster"
+            android:textSize="18dp"
+            ></TextView>
+    </RelativeLayout>
+    <androidx.recyclerview.widget.RecyclerView
+    android:id="@+id/tutorrec_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="15dp"
+    android:layout_marginStart="1dp"
+    android:layout_marginLeft="1dp"
+    android:layout_marginTop="1dp"
+    android:layout_marginEnd="1dp"
+    android:layout_marginRight="1dp"
+    android:layout_marginBottom="1dp">
+</androidx.recyclerview.widget.RecyclerView>
+</LinearLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "900612716190",
+    "firebase_url": "https://dl-search-16781.firebaseio.com",
+    "project_id": "dl-search-16781",
+    "storage_bucket": "dl-search-16781.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:900612716190:android:3859647debb6989739ed8f",
+        "android_client_info": {
+          "package_name": "com.duakhan.ASANzindagi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "900612716190-8l4dem69o0blmcb933c7rei446b4bnrl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dua.adminapp",
+            "certificate_hash": "8996f9ab6689c685b420052dd457084f0793f7d0"
+          }
+        },
+        {
+          "client_id": "900612716190-r9ffggn948bjcmt5ck2d75ivbadb29io.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_V1E33ZG_u6NnXTL1mj7Zk244noe0S28"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "900612716190-r9ffggn948bjcmt5ck2d75ivbadb29io.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

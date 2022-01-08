@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#fff"
+    android:orientation="vertical"
+    app:cardElevation="5dp"
+    android:id="@+id/crd3"
+    app:cardCornerRadius="5dp"
+    app:cardUseCompatPadding="true">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+        <TextView
+            android:id="@+id/docnam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="username"
+            android:paddingLeft="20dp"
+            android:textColor="#000"
+            android:textSize="23sp"
+            />
+        <TextView
+            android:id="@+id/timdoc"
+            android:layout_width="361dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/docnam"
+            android:layout_marginTop="5dp"
+            android:paddingLeft="20dp"
+            android:text="current time and date"
+            android:textColor="#f6941e"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/status"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Status"
+            android:paddingLeft="20dp"
+            android:textColor="#ff0000"
+            android:textSize="26sp"
+            android:layout_below="@id/timdoc"
+            />
+        <ImageView
+            android:id="@+id/btn_dlt3"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_above="@+id/btncancl"
+            android:layout_below="@+id/timdoc"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="49dp"
+            android:layout_marginLeft="49dp"
+            android:layout_marginTop="9dp"
+            android:layout_marginEnd="6dp"
+            android:layout_marginRight="46dp"
+            android:src="@drawable/delet"></ImageView>
+        <Button
+            android:id="@+id/btnaprov"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/status"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="41dp"
+            android:layout_marginLeft="41dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_green"
+            android:text="Approved"
+            android:textColor="#fff"></Button>
+        <Button
+            android:id="@+id/btncancl"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/status"
+            android:layout_marginStart="17dp"
+            android:layout_marginLeft="17dp"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@+id/btnaprov"
+            android:layout_toRightOf="@+id/btnaprov"
+            android:background="@drawable/button_red"
+            android:text="canceled"
+            android:textColor="#fff"></Button>
+    </RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+</androidx.cardview.widget.CardView>
